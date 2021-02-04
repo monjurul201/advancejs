@@ -6,11 +6,16 @@ const student=[
     {id:88,name:'paibna'},
 
 ];
-const names=student.map(s=>s.name);
-console.log(names);
-const bigger=student.find(s=>s.id>40);
-console.log(bigger);
-
+// const names=student.map(s=>s.name);
+// console.log(names);
+// const bigger=student.find(s=>s.id>40);
+// console.log(bigger);
+let student1=[];
 for(let i=0;i<student.length;i++){
-     
+    
+     const element =student[i].name;
+student1.push(element);
+   
+
 }
+console.log(student1);
