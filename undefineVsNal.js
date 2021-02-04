@@ -12,5 +12,12 @@
 // const phakhi={name:'phaki',age:15};
 // console.log(phakhi.gf);
 
-let fun =undefined;
-console.log(fun);
+// let fun =undefined;
+// console.log(fun);
+function doSomething(x, y){
+
+    console.log(y);
+    
+    }
+    
+    doSomething(32);
